@@ -1,3 +1,3 @@
 # lab5
 # make
-# ./out
+# ./hugeint

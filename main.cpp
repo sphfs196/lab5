@@ -1,13 +1,14 @@
-#include"HugeInt.h"
+#include"hugeint.h"
 #include<iostream>
 #include<string>
+#include<cstdlib>
 using namespace std;
 
 int	main()
 {
 	HugeInt	x;
-	HugeInt	y(28825252);
-	HugeInt	z("314159265358979323846");
+	HugeInt	y(28825252);//int
+	HugeInt	z("314159265358979323846");//string
 	HugeInt	result;
 	cin	>>	x;
 	result	=	x+y;
